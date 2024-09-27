@@ -1,5 +1,10 @@
-mcr.microsoft.com/playwright/java
-openjdk:17
-redis:7.4.0
-mysql:8.0.33
-nginx:1.27.1
+--platform=linux/amd64 mcr.microsoft.com/playwright/java
+--platform=linux/arm64 mcr.microsoft.com/playwright/java
+--platform=linux/amd64 openjdk:17
+--platform=linux/arm64 openjdk:17
+--platform=linux/amd64 redis:7.4.0
+--platform=linux/amd64 mysql:8.0.33
+--platform=linux/amd64 nginx:1.27.1
+--platform=linux/arm64 redis:7.4.0
+--platform=linux/arm64 mysql:8.0.33
+--platform=linux/arm64 nginx:1.27.1
